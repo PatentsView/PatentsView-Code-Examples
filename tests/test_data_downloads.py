@@ -15,6 +15,10 @@ def test_0_introduction(nb):
     """Check that notebook runs without error."""
     ...
 
+@testbook("data-downloads/0-data-exploration-example.ipynb", execute=True)
+def test_1_data_exploration_example(nb):
+    """Check that notebook runs without error."""
+    ...
 
 def test_sources():
     """Check that all urls in sources.yml are valid."""

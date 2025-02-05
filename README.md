@@ -16,6 +16,9 @@ Examples working with [PatentsView's bulk data downloads](https://patentsview.or
 
 Python and R dependencies are specified in the [`environment.yml`](environment.yml) file and in individual code example files. You can install all dependencies using [**conda**](https://docs.conda.io/projects/conda/en/latest/index.html):
 ```sh
+git clone https://github.com/PatentsView/PatentsView-Code-Examples.git
+cd PatentsView-Code-Examples
+
 conda env update
 conda activate pv-code-examples
 ```
