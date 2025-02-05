@@ -24,6 +24,7 @@ dependencies:
     - duckdb==1.1.*
     - fsspec==2024.10.*
     - pyyaml==6.0.*
+    - kaleido
 
     # R in Jupyter notebook
     - rpy2==3.5.*
