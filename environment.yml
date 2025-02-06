@@ -25,6 +25,7 @@ dependencies:
     - fsspec==2024.10.*
     - pyyaml==6.0.*
     - kaleido
+    - plotly
 
     # R in Jupyter notebook
     - rpy2==3.5.*
