@@ -1,6 +1,6 @@
 name: pv-code-examples
 
-channels: 
+channels:
   - conda-forge
 
 dependencies:

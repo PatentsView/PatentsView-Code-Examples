@@ -10,13 +10,13 @@ def change_test_dir(monkeypatch):
     monkeypatch.chdir("data-downloads")
 
 
-@testbook("data-downloads/0-getting-started.ipynb", execute=True)
+@testbook("data-downloads/0-getting-started.ipynb", execute=True, timeout=360)
 def test_0_introduction(nb):
     """Check that notebook runs without error."""
     ...
 
 
-@testbook("data-downloads/0-data-exploration-example.ipynb", execute=True)
+@testbook("data-downloads/1-python-data-exploration-example.ipynb", execute=True, timeout=360)
 def test_1_data_exploration_example(nb):
     """Check that notebook runs without error."""
     ...
